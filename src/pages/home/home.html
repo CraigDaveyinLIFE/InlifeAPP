@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <button ion-item *ngFor="let setting of settings">
+      {{ setting }}
+    </button>
+  </ion-list>
+
+</ion-content>
